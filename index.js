@@ -37,7 +37,7 @@ const fs = require('fs');
     });
 
         //desired page to scrape
-    await page.goto('https://116andwest.com');
+    await page.goto('https://your-url-here.com');
 
     //to run, use "node index.js" in your terminal window
 
