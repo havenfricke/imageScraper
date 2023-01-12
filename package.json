@@ -1,0 +1,22 @@
+{
+  "name": "imagescraper",
+  "version": "1.0.0",
+  "description": "A page scraper made with puppeteer and node.js that will download and save images by their respective file names. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "page",
+    "scraper",
+    "puppeteer",
+    "node.js",
+    "url",
+    "filename"
+  ],
+  "author": "Haven Fricke",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^19.5.2"
+  }
+}
