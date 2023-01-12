@@ -18,7 +18,7 @@ const fs = require('fs');
 
 
     page.on('response', async (response) => {
-        
+
         //specify which file extension to look for
       const matches = /.*\.(jpg|png|gif|mp4|webp|webm|jpeg)$/.exec(response.url());
 
@@ -37,7 +37,9 @@ const fs = require('fs');
     });
 
         //desired page to scrape
-    await page.goto('https://put-a-website-url-here.com');
+    await page.goto('https://116andwest.com');
+
+    //to run, use "node index.js"
 
     await browser.close();
 })();
