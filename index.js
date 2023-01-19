@@ -20,7 +20,7 @@ const fs = require('fs');
     page.on('response', async (response) => {
 
         //specify which file extension to look for
-      const matches = /.*\.(jpg|png|gif|mp4|webp|webm|jpeg)$/.exec(response.url());
+      const matches = /.*\.(jpg|png|gif|mp4|webp|webm|jpeg|pdf)$/.exec(response.url());
 
         //get the filename
       const matchName = {...matches};
